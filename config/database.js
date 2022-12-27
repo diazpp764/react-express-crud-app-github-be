@@ -7,12 +7,12 @@ let connection = mysql.createConnection({
   database: "db_express_api",
 });
 
-connection.connect(function(error) {
-    if (!!error) {
-        console.log(error);
-    } else {
-        console.log('Successfully connected to the database.');
-    }
+connection.connect(function (error) {
+  if (!!error) {
+    console.log(error);
+  } else {
+    console.log("Successfully connected to the database.");
+  }
 });
 
 module.exports = connection;

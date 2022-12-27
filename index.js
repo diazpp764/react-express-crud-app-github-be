@@ -9,7 +9,7 @@ const cors = require("cors");
 app.use(cors());
 
 // Import body parser
-const bodyParser = require('body-parser');
+const bodyParser = require("body-parser");
 
 // Parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));
